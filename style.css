@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +36,7 @@ nav {
 nav .logo {
     color: var(--text-color);
     font-size: 30px;
-    font-family: cursive;
+    font-family: "Playwrite DE Grund", cursive;
     margin-left: 20px;
 }
 

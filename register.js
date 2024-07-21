@@ -26,31 +26,15 @@ function daftar() {
     }else if(inputReasonValue == ""){
         alert("write your reason!");
     }else{
-        $.ajax({
-            type: 'POST',
-            url: 'data.php',
-            data: {
-                nama: inputNameValue,
-                class: inputClassValue,
-                major: inputMajorValue,
-                phone: inputPhoneValue,
-                alamat: inputAddressValue,
-                reason: inputReasonValue
-            },
-            success: function(response) {
+       
                 Swal.fire({
                     title: 'Success!',
-                    text: 'Jangan lupa masuk grup wa nya ya ^^ ',
+                    text: 'ini hanya web contoh bukan yang asli -develover sinta',
                     icon: 'success',
-                    timer: 2000,
-                    showConfirmButton: false
+                    timer: 3000,
+                    showConfirmButton: true
                 }).then(() => {
-                    window.location.href = 'join.html';
-                });
-            },
-            error: function(xhr, status, error) {
-                console.log(error);
-            }
+ 
         });
     }
 }

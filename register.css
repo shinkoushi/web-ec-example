@@ -19,7 +19,7 @@ body{
 
 
 .container-checkout{
-    width: 500px;
+    width: 400px;
     height: auto;
     background-color:var(--main-color);
     border-radius: 5px;
